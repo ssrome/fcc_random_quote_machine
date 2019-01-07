@@ -3,13 +3,26 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
   <title>Random Quote Machine</title>
   <meta name="description" content="">
   <meta name="" content="">
 
+  <!-- Bootstrap CSS-->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!-- Font Awesome CSS-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Charm|Tangerine" rel="stylesheet"> 
 
   <!-- Custom CSS -->
   <link href="css/styles.css" rel="stylesheet" >
@@ -17,31 +30,60 @@
 </head>
 
 <body id="background">
-  <header>
-    <h1 id="title">Random Quote Machine</h1>
-  </header>
-    <div id="quote-box">
-        <div id="text" onload="">
-          "A minha casa é aqui e a sua casa é aquele." 
+  <div class="container">
+    <header>
+      <h1 id="title">Random Quote Machine</h1>
+    </header>
+    <div class="row">
+      <div class="col">
+        <div id="quote-box">
+          <div class="row">
+            <div class="col">
+              <div id="text"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div id="author"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div>
+                <a href="https://twitter.com/intent/tweet" id="tweet-quote">
+                  <i class="fab fa-twitter"></i>        
+                </a>
+              </div>
+            </div>
+            <div class="col">
+              <button type="button" class="btn" id="new-quote">New quote</button>
+            </div>
+          </div>
         </div>
-        <div id="author" onload="">
-          Anonymous
-        </div>
-        <div id="tweet-quote">
-          <a onclick="" >
-            <img src="" alt="tweet" />
-          </a>
-        </div>
-        <div id="new-quote">
-            <a onclick="" >New quote</a>
-        </div>  
+      </div>
     </div>
+  </div>  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
-    <div id="credit">
-      Designed and coded by SaRomSa
-    </div>
-       
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js" integrity="sha384-4oV5EgaV02iISL2ban6c/RmotsABqE4yZxZLcYMAdG7FAPsyHYAPpywE9PJo+Khy" crossorigin="anonymous"></script>
+
+    <!-- jQuery JS -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
     <!-- Custom JavaScript -->
     <script src="js/scripts.js"></script>
+
+    <!-- Testing Suite -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </body>
 </html>

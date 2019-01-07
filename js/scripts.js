@@ -1,7 +1,6 @@
 $(document).ready(function() {
     let quote;
     let author;
-    let link;
 
     function getNewQuote() {
         $.ajax({
@@ -16,20 +15,27 @@ $(document).ready(function() {
             success: function(response){
                 quote = response.quoteText;
                 author = response.quoteAuthor;
-                console.log(response.quoteAuthor);
                 $('#text').text(quote);
                 if (author){
                     $('#author').text ("by " + author)
                 } else {
-                    $('#author').text ("by unknown");
+                    $('#author').text ("- unknown");
                 }
-            }
-            
+            },
+            error: function(){
+                $('#text').text("Error: Operator");
+                $('#author').text("Taking Back Sunday");
+            }   
         });
     }
     getNewQuote();
 
-    $('#new-quote').on('click', function() {
+    $('#new-quote').on('click', function(event) {
+        event.preventDefault();
         getNewQuote();
     });
-})
+    $('#tweet-quote').on('click', function(event) {
+        event.preventDefault();
+        window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(quote + "- " + author + " #RandomQuote"));
+    });
+});
