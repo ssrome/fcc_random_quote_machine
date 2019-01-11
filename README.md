@@ -17,4 +17,4 @@ The challenge was to build a Codepen app with the following requirements, using 
     
 The project had to be run against test [CDN link to run the tests in any environment] (https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js)
 
-[My Build a Random Quote Machine](https://codepen.io/ssrome/pen/NeMpRV)
+My Random Quote Machine on [CodePen](https://codepen.io/ssrome/pen/NeMpRV) and [Github Pages](https://ssrome.github.io/fcc_random_quote_machine/)
