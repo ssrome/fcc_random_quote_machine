@@ -1,0 +1,44 @@
+header {
+  margin: 25% 0 0;
+}
+h1 {
+  font-size: 3.5rem;
+}
+.quoteBox {
+  background-color: #f5efef;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  box-shadow: -1px 5px 10px 10px rgba(0, 0, 0, 0.4);
+  margin: 8% auto 0;
+  max-width: 600px;
+  padding: 30px 20px 10px;
+}
+
+.quoteText {
+  font-family: "Tangerine", cursive;
+  font-size: 2rem;
+}
+.quoteAuthor {
+  font-family: "Charm", cursive;
+  text-align: right;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.twitterButton {
+  color: #1da1f2;
+  font-size: 1.6rem;
+  text-align: left;
+}
+
+.newQuoteButton {
+  text-align: right;
+}
+
+.footer {
+  margin-top: 5%;
+}

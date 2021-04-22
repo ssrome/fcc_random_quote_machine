@@ -1,0 +1,9 @@
+body {
+  background: linear-gradient(
+    89.1deg,
+    rgb(232 128 163) 15.2%,
+    rgb(179, 146, 231) 98.5%
+  );
+  margin: 0;
+  text-align: center;
+}
