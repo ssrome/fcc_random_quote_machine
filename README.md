@@ -10,4 +10,4 @@ To start the project, you can run:
 
 ### `npm start`
 
-My Random Quote Machine on [Github Pages](https://ssrome.github.io/fcc_random_quote_machine/)
+You can see my Random Quote Machine on [here](https://romantic-swanson-be0c1d.netlify.app)
