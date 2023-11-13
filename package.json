@@ -18,6 +18,9 @@
     "@babel/plugin-transform-private-property-in-object": "^7.23.3",
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   },
+  "overrides": {
+    "autoprefixer": "10.4.5"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
