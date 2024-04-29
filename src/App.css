@@ -1,5 +1,5 @@
 header {
-  margin: 25% 0 0;
+  margin: 20% 0 0;
 }
 h1 {
   font-size: 3.5rem;
@@ -39,6 +39,18 @@ h1 {
   text-align: right;
 }
 
+.newQuoteButton button {
+  background-color: black;
+  color: #ffffff;
+  padding: 8px;
+}
+
 .footer {
   margin-top: 5%;
+}
+
+@media (min-width: 768px) {
+  header {
+    margin: 5% 0 0;
+  }
 }
