@@ -39,6 +39,12 @@ h1 {
   text-align: right;
 }
 
+.newQuoteButton button {
+  background-color: black;
+  color: #ffffff;
+  padding: 8px;
+}
+
 .footer {
   margin-top: 5%;
 }
