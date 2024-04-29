@@ -11,8 +11,15 @@
     "react": "^17.0.2",
     "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
+    "react-scripts": "5.0.1",
     "web-vitals": "^1.1.1"
+  },
+  "overrides": {
+    "autoprefixer": "10.4.5"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-transform-private-property-in-object": "^7.24.5"
   },
   "scripts": {
     "start": "react-scripts start",
